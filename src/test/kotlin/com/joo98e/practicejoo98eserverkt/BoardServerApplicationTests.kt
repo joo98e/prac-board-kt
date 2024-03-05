@@ -6,10 +6,10 @@ import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
 class BoardServerApplicationTests : BehaviorSpec({
-    Given("a test") {
-        When("running a test") {
-            Then("it should pass") {
-                true shouldBe true
+    given("a test") {
+        `when`("I run a test") {
+            then("it should pass") {
+                1 + 1 shouldBe 2
             }
         }
     }

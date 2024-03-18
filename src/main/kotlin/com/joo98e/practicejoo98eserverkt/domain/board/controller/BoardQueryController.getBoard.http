@@ -1,0 +1,4 @@
+GET /localhost:8080/boards/1
+Content-Type: application/json
+
+

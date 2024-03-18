@@ -1,5 +1,5 @@
 ### 게시글 생성
-PUT /localhost:8080/boards/1
+PUT /localhost:8080/boards
 Content-Type: application/json
 
 {
